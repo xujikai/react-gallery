@@ -1,0 +1,32 @@
+html, body {
+  background: #222;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+
+.stage-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  overflow: hidden;
+  perspective: 1800px;
+}
+
+.stage-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  z-index: 101;
+  text-align: center;
+}
+
