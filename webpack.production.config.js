@@ -10,9 +10,9 @@ module.exports = {
     path.resolve(__dirname, 'app/main.jsx')
   ],
   output: {
+    publicPath: 'http://localhost/react-gallery/',
     path: path.resolve(__dirname, 'build'),
-    publicPath: '/',
-    filename: './bundle.js'
+    filename: './dist/bundle.js'
   },
   module: {
     loaders: [
